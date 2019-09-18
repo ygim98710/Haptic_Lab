@@ -1,5 +1,9 @@
 background(255);  
+//도형의 외곽선 X
 noStroke(); 
+
+//fill(r값, b값, y값)
+//ellipse(x좌표, y좌표, width값, height값)
 
 // Bright red
 fill(255,0,0);
