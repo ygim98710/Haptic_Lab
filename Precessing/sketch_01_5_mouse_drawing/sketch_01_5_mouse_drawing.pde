@@ -1,4 +1,4 @@
-
+//저장한 횟수 -> 파일 이름 뒤에 붙이라고
 int saveCount;
 
 void setup() {
