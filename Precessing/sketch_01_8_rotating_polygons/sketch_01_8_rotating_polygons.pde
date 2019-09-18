@@ -12,19 +12,19 @@ void draw() {
   rotate(frameCount / 200.0);
   translate(width*0.2, height*0.5);
   
-  polygon(0, 0, 82, 3);  // Triangle
+  polygon(0, 0, 82, 3);  // 삼각형
   popMatrix();
   
   pushMatrix();
   translate(width*0.5, height*0.5);
   rotate(frameCount / 50.0);
-  polygon(0, 0, 80, 20);  // Icosahedron
+  polygon(0, 0, 80, 20);  // 20각형
   popMatrix();
   
   pushMatrix();
   translate(width*0.8, height*0.5);
   rotate(frameCount / -100.0);
-  polygon(0, 0, 70, 7);  // Heptagon
+  polygon(0, 0, 70, 7);  // 7각형
   popMatrix();
 }
 
